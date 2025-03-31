@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CSS Styling</title>
+            <!--2.internal styling/css-->
+            <!--spacing, a. margin spacing-space outside an elements border: between the border and other elements  b. space inside an element; between the border and the elements content
+            spacing: 1. single spacing
+            margin: 10px; all around the element
+            2. double spacing
+            padding: 10px 15px; top+bottom left+right
+            3. four
+            margin: 0 20px 15px 10px; top, right, bottom, left (clockwise) -->
+            <style>
+                h2 {
+                    text-decoration: underline;
+                    text-align: center;
+                }
+                #p-main {
+                    color: blue;
+                    font-size: 20px;
+                    font-style: italic;
+                }
+                img {
+                    border: 7px solid black;
+                    border-radius: 7px;
+                    margin: 10px;
+                    padding: 30px;
+                }
+                .google-link {
+                    color: purple;
+                    text-decoration: none;
+                    cursor: pointer;                    
+                }
+            </style>
+    <header><h3><a class="google-link" href="https://www.google.com" target="_blank">Google</a></h3></header>
+        <!--1. in-line styling you introduce a styling attribute to the opening tag of any element. here we disregard the selctor and description block-->
+        <h1>Wow! See this</h1>
+    </head>
+    <body style="background-color: lightgoldenrodyellow; text-align: center;">
+        <h2>Take a look</h2>
+        <p id="p-main">Do you see it? Can you see it? Can you really see it?</p>
+        <img src="https://www.worldatlas.com/r/w1200/upload/e9/3d/65/east-african-countries-1.png" width="400" alt="map">
+    </body>
+</html>
